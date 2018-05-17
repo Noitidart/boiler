@@ -3,7 +3,7 @@
 import React, { Component } from 'react'
 
 import MainRoutes, { PAGES as MAIN_PAGES } from '../../routes/MainRoutes'
-import Header from '../../components/Header'
+import Header from './Header'
 
 import './index.css'
 
