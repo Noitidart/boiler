@@ -1,0 +1,18 @@
+.Nav {
+    padding: 10px 0;
+}
+
+.Nav__link--selected {
+    font-weight: bold;
+}
+
+.Nav__link {
+    margin: 0 10px 0 10px;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.Nav__link:visited {
+    color: inherit; /* otherwise the a:visited color comes through crossfile-link271771 */
+}

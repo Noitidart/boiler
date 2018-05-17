@@ -4,9 +4,21 @@
   "private": true,
   "dependencies": {
     "flow-bin": "^0.72.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1",
+    "qs": "^6.5.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "recompose": "^0.27.0",
+    "redux": "^4.0.0",
+    "redux-form": "^7.3.0",
+    "redux-persist": "^5.9.1",
+    "redux-saga": "^0.16.0",
+    "sane-email-validation": "^1.1.0",
+    "urijs": "^1.19.1"
   },
   "scripts": {
     "flow": "flow",

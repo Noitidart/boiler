@@ -1,0 +1,32 @@
+.Page {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SettingsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.SettingRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SettingRow__label {
+    width: 15em;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.SettingRow__value {
+    display: flex;
+    align-items: center;
+}
+
+.SettingRow__button {
+
+}

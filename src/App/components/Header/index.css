@@ -1,0 +1,18 @@
+@import url('../../config/animations.css');
+
+.Header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header__title {
+    font-size: 1.5em;
+}
+
+.Header__logo {
+    animation: spin-animation infinite 20s linear;
+    height: 80px;
+}
