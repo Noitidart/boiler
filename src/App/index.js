@@ -4,7 +4,7 @@ import './boot'
 
 import React, { Component } from 'react'
 import { Provider } from 'react-redux'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import store from './store'
 
@@ -18,7 +18,9 @@ class App extends Component<{||}> {
             <Provider store={store}>
                 <BrowserRouter>
                     <div className="App">
-                        <PageMain />
+                        <Switch>
+                            <Route path="/" component={PageMain} />
+                        </Switch>
                     </div>
                 </BrowserRouter>
             </Provider>
