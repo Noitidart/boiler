@@ -16,4 +16,5 @@
 .Header__logo {
     animation: spin-animation infinite 20s linear;
     height: 80px;
+    user-select: none;
 }
