@@ -5,15 +5,15 @@
 
 .SettingRow {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .SettingRow__label {
-    width: 15em;
+    width: 8em;
     font-size: 1.1em;
     font-weight: 500;
     display: inline-block;
-    padding: 15px 0;
+    padding: 16px 0;
 }
 
 .SettingRow__value {
