@@ -2,17 +2,20 @@
 
 import React, { PureComponent } from 'react'
 
+import AppIntro from '../../components/AppIntro'
 import Counter from '../../components/Counter'
 
 import './index.css'
 
-class PageCounter extends PureComponent<void, void> {
+type Props = {||}
+
+class PageCounter extends PureComponent<Props> {
     render() {
         return (
-            <div className="Page">
-                <p className="App__intro">
+            <div>
+                <AppIntro>
                     Let&apos;s count... 1.. 2.. 3..
-                </p>
+                </AppIntro>
                 <Counter />
             </div>
         )

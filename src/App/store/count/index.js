@@ -12,12 +12,12 @@ const A = ([actionType]: string[]) => 'COUNT_' + actionType; // Action type pref
 
 //
 const UP = A`UP`;
-type UpAction = { type:typeof UP };
+type UpAction = {| type:typeof UP |};
 const up = (): UpAction => ({ type:UP });
 
 //
 const UP_ASYNC = A`UP_ASYNC`;
-type UpAsyncAction = { type:typeof UP_ASYNC, times:number };
+type UpAsyncAction = {| type:typeof UP_ASYNC, times:number |};
 const upAsync = (times: number = 1): UpAsyncAction => ({ type:UP_ASYNC, times });
 
 function* upAsyncWorker(action: UpAsyncAction): Generator<*, *, *> {
@@ -33,7 +33,7 @@ sagas.push(upAsyncWatcher);
 
 //
 const DN = A`DN`;
-type DownAction = { type:typeof DN };
+type DownAction = {| type:typeof DN |};
 function dn(): DownAction {
     return {
         type: DN

@@ -2,6 +2,8 @@
 
 import React, { Component } from 'react'
 
+import AppIntro from '../../components/AppIntro'
+
 import { persistor } from '../../store'
 
 import './index.css'
@@ -13,10 +15,10 @@ type Props = {|
 class PageSettings extends Component<Props> {
     render() {
         return (
-            <div className="Page">
-                <p className="App__intro">
+            <div>
+                <AppIntro>
                     Customize your experience ^_^
-                </p>
+                </AppIntro>
                 <div className="SettingsContainer">
                     <div className="SettingRow">
                         <label className="SettingRow__label">
